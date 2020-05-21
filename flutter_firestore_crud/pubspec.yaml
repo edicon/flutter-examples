@@ -18,7 +18,10 @@ dependencies:
   intl: ^0.16.1
   flutter_dialogs: ^1.0.2
   flutter_speed_dial: ^1.2.5
-  undraw: ^1.0.2
+  # undraw: ^1.0.2
+  # https://github.com/westdabestdb/undraw/issues/11
+  undraw:
+    git: https://github.com/kay4ik/undraw
   enum_to_string: ^1.0.9
 
 dev_dependencies:
